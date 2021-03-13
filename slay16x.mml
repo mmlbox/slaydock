@@ -1,0 +1,57 @@
+;[gain=2.0 name=slay16x duration=300s fade=5s cpu=0]
+; The line above defines extra options, works only on msxplay.com
+; name    : Name of mml, use as the base download filename.
+; gain    : Volume gain. (default: 1.0)
+; duration: Length of the song. (default: 300s)
+; fade    : Time of fading out. (default: 5s)
+; cpu     : CPU speed ratio. 0:auto, 1:3.58MHz (default: 0)
+#opll_mode 0
+#tempo 163
+#title { "Super Laydock - Wining Music"}
+
+@v15 = { ; Brass
+;       TL FB
+        25, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+   8, 4, 3, 2, 0, 1, 0, 0, 0, 0, 0,
+   9, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0 }
+
+ABCDEFGH l8
+
+A [0 @15v12o4
+A f4a+8a8a+4f4g4.>c8<a+4>c8d8
+A d+8d8c8<a+8 a4g4f4d+4d4a+8>c8
+A d8c8d8c8d4<a+4>c4d4d+4f8d+8
+A d8c8<a+8a8g8f8g8>c8<a+1 ]
+
+B r64[0 \1@15v12o4
+B f4a+8a8a+4f4g4.>c8<a+4>c8d8
+B d+8d8c8<a+8 a4g4f4d+4d4a+8>c8
+B d8c8d8c8d4<a+4>c4d4d+4f8d+8
+B d8c8<a+8a8g8f8g8>c8<a+1 ]
+
+C [0 @15v11o5
+C d2f4d4d+2f2 g2a+2a4>c4<f2
+C a+2f4d4g2f+2 d+2a2d2d2 ]
+
+D r32 [0 \1@15v11o5
+D d2f4d4d+2f2 g2a+2a4>c4<f2
+D a+2f4d4g2f+2 d+2a2d2d2 ]
+
+E r64 [0 \2@15v12o4
+E d2f4d4d+2f2 g2a+2a4>c4<f2
+E a+2f4d4g2f+2 d+2a2d2d2 ]
+
+F [0 @15v11o4
+F a+2a+4a+4>d+2<a+2 >d+2e4e4f2<a+2
+F a+2a+4a+4> d+2d+2 c2f2<a+4>f4a+2 ]
+
+G [0 \1@15v10o4
+G a+2a+4a+4>d+2<a+2 >d+2e4e4f2<a+2
+G a+2a+4a+4> d+2d+2 c2f2<a+4>f4a+2 ]
+
+H r64 [0 \2@15v12o3
+H a+2a+4a+4>d+2<a+2 >d+2e4e4f2<a+2
+H a+2a+4a+4 >d+2d+2 c2f2<a+4>f4a+2 ]
+
+#end

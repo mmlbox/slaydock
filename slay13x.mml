@@ -1,0 +1,186 @@
+;[gain=2.0 name=slay13x duration=300s fade=5s cpu=0]
+; The line above defines extra options, works only on msxplay.com
+; name    : Name of mml, use as the base download filename.
+; gain    : Volume gain. (default: 1.0)
+; duration: Length of the song. (default: 300s)
+; fade    : Time of fading out. (default: 5s)
+; cpu     : CPU speed ratio. 0:auto, 1:3.58MHz (default: 0)
+#opll_mode 0
+#tempo 163
+#title { "Super Laydock - Into the Defence Line (Stage 10)"}
+
+@v15 = { ; B.D
+;       TL FB
+         0, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 9,15, 0, 0, 1, 0, 0, 0, 1, 0,
+  12, 8, 2, 7, 0, 1, 0, 0, 0, 0, 0 }
+
+@v16 = { ; S.D
+;       TL FB
+         0, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  11, 0, 0, 0, 0,15, 0, 0, 0, 0, 0,
+  15, 8, 3, 7, 0, 0, 0, 0, 0, 0, 0 }
+
+@v17 = { ; H.H
+;       TL FB
+         0, 5,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0,15, 0, 0, 0, 0, 0,
+  15,12, 5, 9, 0, 2, 0, 0, 0, 0, 0 }
+
+#macro_offset { T=100 }
+*T3={@14}
+*T4={@9}
+*T16={@11}
+*T26={@7}
+*T27={@9}
+
+*T7={@15v14} ; BD
+*T6={@17v13} ; HH
+*T5={@16v14} ; SD
+
+ABCDEFGH l8
+
+B \1r16
+AB [0
+AB *T26v13o5
+AB r8d+8d8c2&c8r8c8<a+8>c8d8d+8d4.
+AB <a+8g8>
+AB c1&c1&
+AB c8<g+8f8g+8>c4d+4d2&d8
+AB r8c8d8d+1&d+2&d+8
+AB c8<a+8g+8
+AB f4.g+4>c4d+8d2&d8
+AB r8d8d+8d8c4<g+4>c4d+8d2&d8
+AB r8d+8d8c2&
+AB c8<g+8a+8>c8d8r8c8r8f8
+AB r8d+8r8d1&d1&
+AB d16r16
+AB *T27
+B (
+AB r2r8<g8>c8d+8g4g+8g4.f8d+8a+4.f4.g8d+1&
+AB d+8r2r8<g+8>c8d+8g4f8g+4.
+AB g4f+2c+8d8f8g+8g1
+AB r2r8<g8>c8d+8g4g+8g4.
+AB f8d+8>c4.d4.d+1
+AB <c8d8d+4f8g8a+8g8f8g8f8d+8d8f8
+AB d+8d8c8<b8>d2..c2&c16r16
+AB ]
+
+C l16
+C [0 *T16v12o5
+C r2r8c8g8>c8r8<c8g8>c8<<a+8>f8a+8<a+8>f8
+C a+8<a+8r8r8>c8g8>c8r8<c8g8>c8<<g+8>d+8g8<g+8>d+8g8g+8
+C r8r8<f8>c8f8<g+8>c8<g+8f8r8g8>>d8<g8r8>d8<b8g8r8c8
+C g8>c8r8<<b8>g8b8r8d8g8>d8r8<c8g8>c8r8<<f8>c8f8r8g+8g8c8r8<g8>d8g8
+C r8g8f8d8r8<g+8>d+8g+8r8>c8<g+8d+8r8<a+8>f8g8
+C r8>d8<a+8f8r8<f8g+8>c8r8<f8g+8>c8r8c8r8c8r8c8
+C r8<b8g16>c16d16f16g16>c16d16f16g16>c16d16f16g16>c16d16f16<<<<f8.f8.f8
+C r2[>g16d+16c16d+16<]8[>f16d16<a+16>d16<]4
+C [>d+16c16<g+16>c16<]2[>d16<a+16g16a+16]2[>c16<g+16f16g+16]4
+C [>d16<b16g16b16]4[>c16<a16f+16a16]2[b16g+16f16g+16]2[>d16<b16g16b16]4
+C [>g16d+16c16d+16<]8>d+4.d4.d+1r4
+C [>f16c16<g+16f16]4[>g16d16<b16>d16<]4[>g16d16c16d16<]4[>g16d+16c16d+16<]2
+C ]
+
+D l16
+D [0 *T4v10o4
+D r2g8g16g16g8g16g16g8g8r4f8f16f16f8f16f16f8f8r4
+D [g8g16g16g8g16g16g8g8r4]2g+8g+16g+16g+8g+16g+16g+8g+8r4
+D a+8a+16a+16a+8a+16a+16a+8a+8r4>c8c16c16c8c16c16<b8b16b16b8
+D b16b16a+8a+16a+16a+8a+16a+16>c8c16c16c8c16c16c8c16c16c8c16c16
+D c8c8r4d8d16d16d8d16d16d8d8r4d+8d+16d+16d+8d+16d+16d+8d+8
+D r4f8f16f16f8f16f16f8f8r4c8c16c16c8c16c16c8c16c16c8c16c16
+D r8<a8r8a8r8a8r8>c8c8c16c16c8c16c16c8c16c16c8c16c16d8.d8.d8
+D r2[<g8g16g16g8g16g16g8g16g16g8g16g16>]2<f8f16f16f8f16
+D f16f8f16f16f8f16f16g8g16g16g8g16g16f8f16f16f8f16f16d+8d+16
+D d+16d+8d+16d+16d+8d+16d+16d+8d+16d+16d8d16d16d8d16d16d8d16d16
+D d8d16d16c8c16c16c8c16c16d8d16d16d8d16d16d8d16d16d8d16d16d8
+D d16d16d8d16d16[g8g16g16g8g16g16g8g16g16g8g16g16]2>c4.<b4.
+D >c1r4<c8c16c16c8c16c16c8c16c16c8c16c16d8d16d16d8d16d16
+D d8d16d16d8d16d16d+8d+16d+16d+8d+16d+16
+D d+8d+16d+16d+8d+16d+16d+8d+16d+16d+8d+16d+16
+D ]
+
+E l16
+E [0 *T4v10o4
+E r2d+8d+16d+16d+8d+16d+16d+8d+8r4d8d16d16d8d16d16d8d8r4
+E [d+8d+16d+16d+8d+16d+16d+8d+8r4]2c8c16c16c8c16c16c8
+E c8r4d8d16d16d8d16d16d8d8r4d+8d+16d+16d+8d+16d+16>d8d16d16
+E d8d16d16g8g16g16g8g16g16g8g16g16g8g16g16g+8g+16g+16g+8g+16g+16
+E g+8g+8r4a+8a+16a+16a+8a+16a+16a+8a+8r4>c8c16c16c8c16c16c8
+E c8r4d8d16d16d8d16d16d8d8r4<g+8g+16g+16g+8g+16g+16g+8g+16g+16
+E g+8g+16g+16r8f+8r8f+8r8f+8r8g+8g+8g+16g+16g+8g+16g+16g+8g+16
+E g+16g+8g+16g+16b8.b8.b8
+E r2[<d+8d+16d+16d+8d+16d+16d+8d+16d+16d+8d+16d+16>]2<
+E d8d16d16d8d16d16d8d16d16d8d16d16d+8d+16d+16d+8d+16d+16
+E d8d16d16d8d16d16c8c16c16c8c16c16c8c16c16c8c16c16<
+E a+8a+16a+16a+8a+16a+16
+E a+8a+16a+16a+8a+16a+16a8a16a16a8a16a16
+E g+8g+16g+16g+8g+16g+16>c8c16c16c8c16c16
+E <b8b16b16b8b16b16
+E [>d+8d+16d+16d+8d+16d+16d+8d+16d+16d+8d+16d+16<]2>d+4.d4.d+1
+E r4<g+8g+16g+16g+8g+16g+16g+8g+16g+16g+8g+16g+16a+8a+16a+16a+8
+E a+16a+16a+8a+16a+16a+8a+16a+16g8g16g16g8g16g16g8g16g16g8g16
+E g16g8g16g16g8g16g16
+E ]
+
+F [0 \1*T26v13o5
+F r2
+F c1<a+1>c1<g+1
+F f1g1 c2d2d+2
+F e2f1g1g+1
+F a+1f1d1g1f1
+F >c1c1 <g1g+2
+F g2f1g1
+F >d1<g1 >c1c1
+F <g+4.g4.f+1 r4f1g1 >c1&c2
+F ]
+
+G l16
+G [0 v15o3
+G *T7>a+32a+32a+16a+16a+16d+32d+32d+16d+16d+16<
+G [
+G [*T7d+16*T6d+16d+16d+16*T5d+16*T6d+16d+16d+16*T7d+16*T6d+16*T7d+16*T6d+16*T5d+16*T6d+16d+16d+16 |
+G *T7d+16*T6d+16d+16d+16*T5d+16*T6d+16*T7d+16*T6d+16d+16d+16*T7d+16*T6d+16*T5d+16*T6d+16d+16d+16 ]2
+G |
+G *T7d+16*T6d+16d+16d+16*T5d+16*T6d+16d+16d+16d+16d+16*T7a+16*T6d+16*T5g16*T6d+16*T7d+16*T6d+16
+G ]2
+G *T6d+16d+16*T7g16*T6d+16d+16d+16*T7d+16*T6d+16 *T7>a+32a+32a+16a+16a+16d+32d+32d+16d+16d+16<
+G [ *T7d+16*T6d+16d+16d+16*T5d+16*T6d+16d+16d+16*T7d+16*T6d+16*T7d+16*T6d+16*T5d+16*T6d+16d+16d+16 |
+G *T7d+16*T6d+16d+16d+16*T5d+16*T6d+16*T7d+16*T6d+16d+16d+16*T7d+16*T6d+16*T5d+16*T6d+16d+16d+16 ]3
+G [*T7d+16*T6d+16*T5d+16*T6d+16]4
+G *T7d+16*T6d+16d+16d+16*T5d+16*T6d+16d+16d+16*T7d+16*T6d+16*T7d+16*T6d+16*T5d+16*T6d+16d+16d+16
+G *T6d+16d+16*T7g16*T6d+16d+16d+16*T7d+16*T6d+16*T7>a+32a+32a+16a+16a+16d+32d+32d+16d+16d+16<
+G [
+G *T7d+16*T6d+16d+16d+16*T5d+16*T6d+16d+16d+16*T7d+16*T6d+16*T7d+16*T6d+16*T5d+16*T6d+16d+16d+16 |
+G *T7d+16*T6d+16d+16d+16*T5d+16*T6d+16*T7d+16*T6d+16d+16d+16*T7d+16*T6d+16*T5d+16*T6d+16d+16d+16
+G ]4
+G *T7d+16*T6d+16d+16d+16*T5d+16*T6d+16d+16d+16d+16d+16*T7a+16*T6d+16*T5g16*T6d+16*T7d+16*T6d+16
+G *T7d+16*T6d+16d+16d+16*T5d+16*T6d+16d+16d+16*T7d+16*T6d+16*T7d+16*T6d+16*T5d+16*T6d+16d+16d+16
+G *T7d+16*T6d+16d+16d+16*T5d+16*T6d+16*T7d+16*T6d+16d+16d+16*T7d+16*T6d+16*T5d+16*T6d+16d+16d+16
+G [*T5d+16*T6d+16*T7d+16*T6d+16*T7d+16*T6d+16]2 *T5d+8*T7d+8
+G @10 <a+32a32g+32g32f+32f32e32d+32d32c+32c32<b32a+32a32g+32g32f+32f32e32(d+32d32c+32c32<(b32a+32a32g+32g32))r8>>>
+G [ *T7d+16*T6d+16d+16d+16*T5d+16*T6d+16d+16d+16*T7d+16*T6d+16*T7d+16*T6d+16*T5d+16*T6d+16d+16d+16 |
+G *T7d+16*T6d+16d+16d+16*T5d+16*T6d+16*T7d+16*T6d+16d+16d+16*T7d+16*T6d+16*T5d+16*T6d+16d+16d+16 ]2
+G *T6d+16d+16*T7a+16*T6d+16d+16d+16*T7d+16r16
+G ]
+
+H [0
+H *T3v12o2
+H g8g8g8g8>c8c16c16c8c16c16c8c8c8c8<a+8a+16a+16a+8a+16a+16
+H a+8a+8a+8a+8>c8c16c16c8c16c16c8c8c8c8<g+8g+16g+16g+8g+16g+16
+H g+8g+8g+8g+8f8f16f16f8f16f16f8f8f8f8g8g16g16g8g16g16
+H g8g8g8g8c8>c8<c8c8d8b8d8d8d+8a+8d+8d+8>e8<e8e8
+H e8f8f16f16f8f16f16f8f8f8f8g8g16g16g8g16g16
+H g8g8g8g8g+8g+16g+16g+8g+16g+16g+8g+8g+8g+8a+8a+16a+16a+8a+16a+16
+H a+8a+16a+16a+16a+16a+16a+16[f8f16f16]4>
+H d8d16d16d8d16d16d8d16d16d16d16d16d16
+H [<g8g16g16>]4<f8f16f16f8f16f16g8g16g16g8g16g16
+H [>c8c16c16<]8[g8g16g16]4 g+8g+16g+16g+8g+16g+16g8g16g16g8g16g16
+H [f8f16f16]4[g8g16g16]4[>d8d16d16<]4 g8g16g+16f8f16g16d+8d+16f16d8d16d+16
+H [>c8c16c16<]8g+8>g+8<g+8g8>g8<g8f+1r4
+H [f8f16f16]4[g8g16g16]4[>c8c16c16<]6
+H ]0

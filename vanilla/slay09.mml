@@ -1,0 +1,189 @@
+;[gain=2.0 name=slay09 duration=300s fade=5s cpu=0]
+; The line above defines extra options, works only on msxplay.com 
+; name    : Name of mml, use as the base download filename.
+; gain    : Volume gain. (default: 1.0)
+; duration: Length of the song. (default: 300s)
+; fade    : Time of fading out. (default: 5s)
+; cpu     : CPU speed ratio. 0:auto, 1:3.58MHz (default: 0)
+#opll_mode 1
+#tempo 168
+#title { "Super Laydock - Stage 06 (Vanilla 2413 Edition)"}
+
+9ABCDEF l8
+
+A [0
+A @\0@14v12o2
+A g8g8r4.g8r8d+1&d+8
+A >c8c8r4.c8r8<f2
+A f+2&f+8
+A g8g8r4.g8r8d+1&d+8
+A >c8r8c8r8c8c8r8d1&d2&d3&d24r4<
+A v12
+A g8g8g8g8g8g8g8g8 g8g8g8g8g8g8g8f8
+A f8f8f8f8f8f8f8f8 f8f8f8f8f8f8f8f8
+A d+8d+8d+8d+8d+8d+8d+8d+8 d+8d+8d+8d+8d+8d+8d+8f8
+A f8f8f8f8f8f8f8f8 f8f8f8f+8f+8f+8f+8f+8
+A d+8d+8d+8d+8f8f8f8f8 g8g8g8g8g8g8g8g8
+A d+8d+8d+8d+8f8f8f8f8 g8g8g8g8g8g8g8g8
+A g+8g+8g+8g+8g+8g+8g+8g+8 g8g8g8g8g8g8g8g8
+A >c8c8c8c8c8c8c8c8 d8d8d8d8d8d8d8d8
+A <g8g8g8g8f8f8f8f8 d+8d+8d+8d+8f8f8f8f8
+A g8g8g8g8f8f8f8f8 d+8d+8d+8d+8f8f8f8f8
+A >
+A c8c8c8c8c8c8c8c8 d8d8d8d8d8d8d8d8
+A <d+8d+8d+8d+8f8f8f8f8 g8g8g8g8g8g8g8g8
+A ]
+
+9 [0
+9 @6v13o5
+9 g8g8>d4r8d8r8d+4d8c8<a+8a8g8f8c8
+9 d+8d+8a+4r8a+8r8a4a+8>c8d2&d8<
+9 g8g8>d4r8d8r8d+4d8c8<a+8a8g8f8c8
+9 d+8g8a+8a4a+8>c8d1&d8<r1
+
+9 g8g8f8g8g8f8g8g8f8g8g8a8a+8>c8<a+8
+9 a8a8g8a8a8g8a8a8g8a8a8g8a8a+8a8f8c8
+9 g8g8f8g8g8f8g8g8f8g8g8a8a+8>c8<a+8
+9 a8a8g8a8a8g8a8a8g8a8a8g8a8a+8a8f8c8
+9 d+8g8a+8f4a8>c4d8c8<a+8g2&g8
+9 d+8g8a+8f4a8>c8d1&d8
+9 d+8d8c8d+8d8c8f4c4.d4<a+4.
+9 a8a+8>c8c8r8c+8r8d1&d8
+9 @7)
+9 d8d8d8c4<a4. >d8d8d8c4<a4.
+9 a+8a8g8a+8a8g8a+8a8g8a+8a8g8a+8a8g4
+9 d+8d+8d+8f4g4.f+8f+8f+8g4a4.
+9 a+8>c8<a+8a8a+8a8f8g1&g16r16
+9 ]
+
+C [0
+C @\0@4v11o5
+C d8d8r4.d8r8<a+1&a+8
+C g8g8r4.g8r8>c1&c8
+C d8d8r4.d8r8<a+1&a+8
+C >c8r8c8r8c8c8r8c1&c8 
+C c2.r4<
+C v10
+C a+1&a+1 a1&a1
+C a+1&a+1 a1&a1
+C g4.a2&a8 a+1 g4.a2&a8 a+1
+C >c1<a+1 g1 g2f+2
+C a+4.a2&a8 g4.a2&a8
+C a+4.a2&a8 g4.a2&a8
+C g1 a1 a+2>c2 d1
+C ]
+
+D [0
+D @\24@4v11o4
+D a+8a+8r4.a+8r8g1&g8
+D d+8d+8r4.d+8r8a1&a8
+D a+8a+8r4.a+8r8g1&g8
+D g8r8g8r8g8g8r8g1&g8 
+D f+2.r4
+D v10
+D d1&d1 c1&c1
+D d1&d1 c1&c1
+D <a+4.>c2&c8 d1 <a+4.>c2&c8 d1
+D d+1 d1 d+1 c1
+D d4.c2&c8 <a+4.>c2&c8
+D d4.c2&c8 <a+4.>c2&c8
+D d1 f+1 g2a2 a+1
+D ]
+
+E [0
+E @\0@1v10o5
+E d8d8r4.d8r8<a+1&a+8 g8g8r4.g8r8>c1&c8
+E d8d8r4.d8r8<a+1&a+8 >c8r8c8r8c8c8r8c1&c8 
+E c2.r4
+E v10
+E [a+8]16[a8]16[a+8]16[a8]16
+E [g8g8g8a8a8a8a8a8a+8a+8a+8a+8a+8a+8a+8a+8]2
+E [>c8<]8[a+8]8[g8]8[f+8]8
+E a+8a+8a+8a8a8a8a8a8 g8g8g8a8a8a8a8a8
+E a+8a+8a+8a8a8a8a8a8 g8g8g8a8a8a8a8a8
+E [g8]8[a8]8
+E a+8a+8a+8a+8>c8c8c8c8
+E d16d16d16d16d16d16d16d16 d4 r4 
+E ]
+
+B [0
+B @\16@1v10o5
+B a+8a+8r4.a+8r8g1&g8 d+8d+8r4.d+8r8a1&a8
+B a+8a+8r4.a+8r8g1&g8 g8r8g8r8g8g8r8g1&g8 
+B f+2.r4
+B v10
+B [d8]16[c8]16[d8]16[c8]16
+B [<a+8a+8a+8>c8c8c8c8c8d8d8d8d8d8d8d8d8]2
+B [d+8]8[d8]8[d+8]8[c8]8
+B d8d8d8c8c8c8c8c8 <a+8a+8a+8>c8c8c8c8c8
+B d8d8d8c8c8c8c8c8 <a+8a+8a+8>c8c8c8c8c8
+B [d8]8[f+8]8
+B g8g8g8a8a8a8a8a8
+B a+16a+16a+16a+16a+16a+16a+16a+16 a+4r4 
+B ]
+
+F [0
+F vb14vc13vs14vh10vm15
+F b16h16b16h16s16h16b16h16
+F b16h16s16h16b16h16s16h16
+F ;*B>a+32a+32a+16a+16a+16g32g32g16g16g16d+32d+32d+16d+16d+16<a+32a+32a+16a+16a+16
+F [m32m32m16m16m16]4
+
+F b16h16b16h16s16h16b16h16
+F b16h16s16h16b16h16s16h16
+F b16h16h16h16s16h16b16h16
+F ;*Ba+32a+32a+16d+16d+16s16h16h16h16
+F m32m32m16b16b16s16h16h16h16
+
+F b16h16b16h16s16h16b16h16
+F b16h16s16h16b16h16s16h16
+F ;*B>a+32a+32a+16a+16a+16g32g32g16g16g16d+32d+32d+16d+16d+16<a+32a+32a+16a+16a+16
+F [m32m32m16m16m16]4
+
+F b16h16b16h16s16h16b16h16
+F b16h16s16h16b16h16s16h16
+F c4c4c4c4
+F b16h16s16h16b16h16s16h16
+F s16h16b16b16c4
+F [
+F h16h16h16h16s16h16h16h16
+F   h16h16s16h16h16h16h16h16
+F s16h16h16h16h16h16s16h16
+F h16h16h16h16s16h16b16h16
+F ]4
+F b16h16h16h16s16h16h16h16
+F b16h16b16h16s16h16h16h16
+F b16h16h16h16s16h16b16h16
+F   h16h16b16h16s16h16h16h16
+F b16h16h16h16s16h16h16h16
+F b16h16b16h16s16h16h16h16
+F b16h16h16h16s16h16b16h16
+;F *Ba+32a+32a+16g16g16s16h16d+16d+16
+F m32m32m16m16m16s16h16h16h16
+F b16h16h16h16s16h16h16h16
+F b16h16b16h16s16h16h16h16
+F [
+F b16h16h16h16s16h16b16h16
+F   h16h16b16h16s16h16h16h16
+F ]2
+F b16b16s16s16h16h16s16s16
+F ;*B>a+32a+32a+16a+16a+16d+32d+32d+16d+16d+16<
+F m32m32m16m16m16m32m32m16m16m16
+F b16h16h16h16s16h16h16h16
+F b16h16b16h16s16h16h16h16
+F b16h16h16h16s16h16b16h16
+F   h16h16b16h16s16h16h16h16
+F b16h16h16h16s16h16h16h16
+F b16h16b16h16s16h16h16h16
+F b16h16h16h16s16h16b16h16
+F   h16h16b16h16s16h16h16h16
+F b16h16h16h16s16h16h16h16
+F b16h16b16h16s16h16h16h16
+F [
+F b16h16h16h16s16h16b16h16
+F   h16h16b16h16s16h16h16h16
+F ]2
+F b16b16s16s16b16b16s16s16
+F ;*B>a+32a+32a+16a+16a+16d+32d+32d+16d+16d+16<
+F m32m32m16m16m16m32m32m16m16m16
+F ]

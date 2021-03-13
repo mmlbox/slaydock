@@ -1,0 +1,70 @@
+;[gain=2.0 name=slay10x duration=300s fade=5s cpu=0]
+; The line above defines extra options, works only on msxplay.com
+; name    : Name of mml, use as the base download filename.
+; gain    : Volume gain. (default: 1.0)
+; duration: Length of the song. (default: 300s)
+; fade    : Time of fading out. (default: 5s)
+; cpu     : CPU speed ratio. 0:auto, 1:3.58MHz (default: 0)
+#opll_mode 0
+#tempo 163
+#title { "Super Laydock - Tako San to Dandan (Stage 07)"}
+
+@v15 = { ; B.D
+;       TL FB
+         0, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 9,15, 0, 0, 1, 0, 0, 0, 1, 0,
+  12, 8, 2, 7, 0, 1, 0, 0, 0, 0, 0 }
+
+@v16 = { ; S.D
+;       TL FB
+         0, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  11, 0, 0, 0, 0,15, 0, 0, 0, 0, 0,
+  15, 8, 3, 7, 0, 0, 0, 0, 0, 0, 0 }
+
+@v17 = { ; H.H
+;       TL FB
+         0, 5,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0,15, 0, 0, 0, 0, 0,
+  15,12, 5, 9, 0, 2, 0, 0, 0, 0, 0 }
+
+#macro_offset { T=100 }
+*T3={@14}
+*T4={@10q3so}
+*T16={@11}
+*T15={@9}
+
+*T7={@15v14} ; BD
+*T6={@17v13} ; HH
+*T5={@16v14} ; SD
+
+ABCDEFGH l8
+
+B \1r12
+AB [0 *T15v12o5
+AB g2>c2.r4c6d6d+6 f4.<a+8f2.r4f6g6g+6 d2a2. r4a6b6>c6 <b1g2d6d+6f12r12
+AB ]
+
+C [0 *T16v11o6
+C [c16<g16d+16>g16]8[<a+16f16d16>f16]8[d16<a16f+16>a16]8[<g16d16<b16>>d16]6[<g16d16<b16>>d16]2
+C ]
+
+D [0 *T4v10o4
+D [g8g16g16]8[f8f16f16]8[a8a16a16]8[>d8d16d16<]8
+D ]
+
+E [0 *T4v10o4 
+E [d+8d+16d+16]8[d8d16d16]8[f+8f+16f+16]8[>c8c16c16<]4[b8b16b16]4
+E ]
+
+G [0 v15o3
+G [*T7d+16*T6d+16d+16d+16*T5d+16*T6d+16d+16*T7d+16d+16*T6d+16d+16d+16*T5d+16*T6d+16d+16d+16]7
+G *T7>a+32a+32a+16a+16a+16g32g32g16g16g16d+32d+32d+16d+16d+16<a+32a+32a+16a+16a+16
+G ]
+
+H [0 *T3v12o3
+H c8c8c8c8c8c8c8c8c8c8c8c8c8c8c8c8<a+8a+8a+8a+8a+8a+8a+8a+8a+8a+8a+8a+8a+8a+8a+8a+8>
+H d8d8d8d8d8d8d8d8d8d8d8d8d8d8d8d8<g8g8g8g8g8g8g8g8g8g8g8g8g8g8g8g8
+H ]

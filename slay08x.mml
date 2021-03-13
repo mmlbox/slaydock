@@ -1,0 +1,159 @@
+;[gain=2.0 name=slay08x duration=300s fade=5s cpu=0]
+; The line above defines extra options, works only on msxplay.com
+; name    : Name of mml, use as the base download filename.
+; gain    : Volume gain. (default: 1.0)
+; duration: Length of the song. (default: 300s)
+; fade    : Time of fading out. (default: 5s)
+; cpu     : CPU speed ratio. 0:auto, 1:3.58MHz (default: 0)
+#opll_mode 0
+#tempo 163
+#title { "Super Laydock - BI-SHA-MO-N-TE-N (Stage 05)"}
+
+@v15 = { ; B.D
+;       TL FB
+         0, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 9,15, 0, 0, 1, 0, 0, 0, 1, 0,
+  12, 8, 2, 7, 0, 1, 0, 0, 0, 0, 0 }
+
+@v16 = { ; S.D
+;       TL FB
+         0, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  11, 0, 0, 0, 0,15, 0, 0, 0, 0, 0,
+  15, 8, 3, 7, 0, 0, 0, 0, 0, 0, 0 }
+
+@v17 = { ; H.H
+;       TL FB
+         0, 5,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0,15, 0, 0, 0, 0, 0,
+  15,12, 5, 9, 0, 2, 0, 0, 0, 0, 0 }
+
+#macro_offset { T=100 }
+*T3={@14}
+*T4={@10q3so}
+*T16={@7}
+*T13={@7}
+*T19={@7}
+
+*T7={@15v14} ; BD
+*T6={@17v13} ; HH
+*T5={@16v14} ; SD
+
+B \1r16
+AB [0 *T16v13o5
+AB c2g1f4d+4 d2a+1f4g4
+AB g+1&g+2a+6g+6a+6 
+AB g1&g2f4g4 g+1&g+2g+4f4
+AB g4.c1&c8c4d4
+AB d+1&d+2f6d+6f6 d1&d1
+AB c2g1f4d+4 d2a+1f4g4
+AB g+1&g+2a+6g+6a+6
+AB g1&g2f4g4 g+1&g+2g+4f4
+AB g4.>c1&c8c4d4
+AB d+1&d+2f6d+6f6 d1&d1
+AB <g+4g8g+2f8g4>c8<g4.
+AB d+8c8
+AB d4d+4f4f+4g1
+AB g+4g8g+2f8g4>c8<g4.>c8d8
+AB d+8d8c8<a+8
+AB >c4d+4d2.<d+8f8
+AB g4c4f4<a+4>d+8.d16c8<a+8>c4d+8f8
+AB g4c4f4
+AB <a+4>d+8.d16c8<a+8>c4d+8f8
+AB g4c4f4<a+4>d+1&
+AB d+4r2r6r48r16
+AB ]
+
+C [0 v15o3
+C [*T7d+16*T6d+16d+16d+16*T5d+16*T6d+16d+16d+16*T7d+16*T6d+16 *T7d+16*T6d+16*T5d+16*T6d+16d+16d+16]15
+C *T7>a+32a+32r16a+16a+16g8g16g16d+8d+16d+16<a+8a+16a+16
+C [*T7d+16*T6d+16d+16d+16*T5d+16*T6d+16 d+16d+16*T7d+16*T6d+16*T7d+16*T6d+16*T5d+16*T6d+16d+16d+16]15
+C *T7>a+32a+32r16a+16a+16g8g16g16d+8d+16d+16<a+8a+16a+16
+C [*T7d+16*T6d+16d+16d+16*T5d+16*T6d+16d+16d+16*T7d+16*T6d+16*T7d+16*T6d+16*T5d+16*T6d+16d+16d+16]8
+C [
+C *T7>a+32a+32r16a+16a+16g8g16g16d+8d+16d+16<a+8a+16 a+16
+C *T5d+16*T7d+16d+16d+16*T5d+16*T6d+16*T5d+16*T6d+16*T5d+16*T6d+16
+C *T7>d+32d+32d+16a+16a+16*T5<d+16*T6d+16
+C ]2
+C *T7d+8*T6d+8*T5d+8*T6d+8*T7d+8d+8*T5d+8*T6d+8
+C *T7>a+32a+32a+16a+16a+16g32g32g16g16g16d+32d+32d+16d+16d+16<a+32a+32a+16a+16a+16
+C *T5d+16*T6d+16d+16d+16d+32d+32d+16d+16d+16d+32d+32d+16d+16d+16d+32d+32d+16d+16d+16
+C ]
+
+D [0 *T4v9o4
+D [d+8d+16d+16]8[d8d16d16]8[f8f16f16]8[d+8d+16d+16]8
+D [c8c16c16]8[d+8d+16d+16]8[c8c16c16]8[d8d16d16]8
+D <
+D [d+8d+16d+16]8[d8d16d16]8[f8f16f16]8[d+8d+16d+16]8
+D [c8c16c16]8[d+8d+16d+16]8
+D >
+D [c8c16c16]8[d8d16d16]8
+D [c8c16c16]4[d+8d+16d+16]4[d8d16d16]2[c8c16c16]2
+D [<b8b16b16>]4[c8c16c16]4[d+8d+16d+16]4[c8c16c16]4
+D [d8d16d16]2d8d16d16d4
+D *T19v12
+D [g2f2d+8.r16d+8f8g4r4]2 g2f2d+1&d+4r%128r12
+D ]
+
+E [0 *T4v9o3
+E [g8g16g16]8[f8f16f16]8[g+8g+16g+16]8[g8g16g16]8
+E [g+8g+16g+16]8[g8g16g16]8[g+8g+16g+16]8[b8b16b16]8
+E [g8g16g16]8[f8f16f16]8[g+8g+16g+16]8[g8g16g16]8
+E [g+8g+16g+16]8[g8g16g16]8[g+8g+16g+16]8[b8b16b16]8
+E [g+8g+16g+16]4[g8g16g16]4[f8f16f16]2[d+8d+16d+16]2
+E [d8d16d16]4[g+8g+16g+16]4[g8g16g16]4[g+8g+16g+16]4
+E [>c8c16c16<]2b8b16b16b4
+E *T19v12
+E [>d+2d2c8.r16c8d8d+4r4<]2 >d+2d2c1&c4r%128r12
+E ]
+
+F [0 *T13v12o5
+F [d+16r16d+32r32d+32r32]8[d16r16d32r32d32r32]8
+F [f16r16f32r32f32r32]8[d+16r16d+32r32d+32r32]8
+F [c16r16c32r32c32r32]8[d+16r16d+32r32d+32r32]8
+F [c16r16c32r32c32r32]8[d16r16d32r32d32r32]8
+F <
+F [d+16r16d+32r32d+32r32]8[d16r16d32r32d32r32]8
+F [f16r16f32r32f32r32]8[d+16r16d+32r32d+32r32]8
+F [c16r16c32r32c32r32]8[d+16r16d+32r32d+32r32]8
+F >
+F [c16r16c32r32c32r32]8[d16r16d32r32d32r32]8
+F [c16r16c32r32c32r32]4[d+16r16d+32r32d+32r32]4
+F [d16r16d32r32d32r32]2[c16r16c32r32c32r32]2
+F [<b16r16b32r32b32r32>]4[c16r16c32r32c32r32]4
+F [d+16r16d+32r32d+32r32]4[c16r16c32r32c32r32]4
+F [d16r16d32r32d32r32]2d16r16d32r32d32r32d4
+F [g2f2d+8.r16d+8f8g4r4]2 g2f2d+1&d+4r%128r12
+F ]
+
+G [0 *T13v12o4
+G [g16r16g32r32g32r32]8[f16r16f32r32f32r32]8
+G [g+16r16g+32r32g+32r32]8[g16r16g32r32g32r32]8
+G [g+16r16g+32r32g+32r32]8[g16r16g32r32g32r32]8
+G [g+16r16g+32r32g+32r32]8[b16r16b32r32b32r32]8
+G [g16r16g32r32g32r32]8[f16r16f32r32f32r32]8
+G [g+16r16g+32r32g+32r32]8[g16r16g32r32g32r32]8
+G [g+16r16g+32r32g+32r32]8[g16r16g32r32g32r32]8
+G [g+16r16g+32r32g+32r32]8[b16r16b32r32b32r32]8
+G [g+16r16g+32r32g+32r32]4[g16r16g32r32g32r32]4
+G [f16r16f32r32f32r32]2[d+16r16d+32r32d+32r32]2
+G [d16r16d32r32d32r32]4[g+16r16g+32r32g+32r32]4
+G [g16r16g32r32g32r32]4[g+16r16g+32r32g+32r32]4
+G [>c16r16c32r32c32r32<]2b16r16b32r32b32r32b4
+G [>d+2d2c8.r16c8d8d+4r4<]2 >d+2d2c1&c4r%128r12
+G ]
+
+H [0 *T3v12o3
+H [c8c16c16]8[<a+8a+16a+16>]8[c+8c+16c+16]8[c8c16c16]8
+H [<f8f16f16>]8[c8c16c16]8[<f8f16f16>]8[<g8g16g16>]8
+H [c8c16c16]8[<a+8a+16a+16>]8[c+8c+16c+16]8[c8c16c16]8
+H [<f8f16f16>]8[c8c16c16]8[<f8f16f16>]8[<g8g16g16>]8
+H [<f8f16f16>]4[c8c16c16]4[<a+8a+16a+16>]2[<g+8g+16g+16>]2
+H [<g8g16g16>]4[<f8f16f16>]4[c8c16c16]4[<f8f16f16>]4
+H [<g8g16g16>]2
+H <g8g16g16g4[>c2<a+2g+8.r16g+8a+8>c4r4<]2>c2<a+2g+1&g+4r%128r12
+H ]
+
+#end

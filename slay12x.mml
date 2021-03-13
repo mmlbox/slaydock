@@ -1,0 +1,73 @@
+;[gain=2.0 name=slay12x duration=300s fade=5s cpu=0]
+; The line above defines extra options, works only on msxplay.com
+; name    : Name of mml, use as the base download filename.
+; gain    : Volume gain. (default: 1.0)
+; duration: Length of the song. (default: 300s)
+; fade    : Time of fading out. (default: 5s)
+; cpu     : CPU speed ratio. 0:auto, 1:3.58MHz (default: 0)
+#opll_mode 0
+#tempo 163
+#title { "Super Laydock - Crash! Crash! (Stage 09)"}
+
+@v15 = { ; B.D
+;       TL FB
+         0, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 9,15, 0, 0, 1, 0, 0, 0, 1, 0,
+  12, 8, 2, 7, 0, 1, 0, 0, 0, 0, 0 }
+
+@v16 = { ; S.D
+;       TL FB
+         0, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  11, 0, 0, 0, 0,15, 0, 0, 0, 0, 0,
+  15, 8, 3, 7, 0, 0, 0, 0, 0, 0, 0 }
+
+@v17 = { ; H.H
+;       TL FB
+         0, 5,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0,15, 0, 0, 0, 0, 0,
+  15,12, 5, 9, 0, 2, 0, 0, 0, 0, 0 }
+
+#macro_offset { T=100 }
+*T3={@14}
+*T4={@9}
+*T16={@7}
+*T15={@6q4so}
+
+*T7={@15v14} ; BD
+*T6={@17v13} ; HH
+*T5={@16v14} ; SD
+
+ABCDEFGH l8
+
+B \1r12
+AB [0 *T16v13o5
+AB c16d+8g16>d8c2r8<c16d+8g16>d8c2r8<<a+16>d8f16>c8<a+2r8<a+16>d8f16>c8<a+2r8
+AB <g+16>c8d+16a+8g+2r8<g16b8>d16g+8g2r8<f16a8>c16f8d+2r8<f16g8b16>d+8d4.r4
+AB ]
+
+C [0 *T15v11o5
+C r4g4r4g4r4g4r4g4r4f4r4f4r4f4r4f4r4d+4r4d+4r4d4r4d4r4c4r4c4r4c4r4d4 ]
+
+D [0 *T4v10o4
+D [g16g16g16g16>g4<]4[f16f16f16f16>f4<]4[d+16d+16d+16d+16>d+4<]2
+D [d16d16d16d16>d4<]2[c16c16c16c16>c4<]2[d16d16d16d16>d4<]2
+D ]
+
+E [0 *T4v10o4
+E [d+16d+16d+16d+16>d+4<]4[>d16d16<f16f16>f4<]4[>c16c16c16c16>c4<<]2
+E [b16b16b16b16>b4<]2[a16a16a16a16>a4<]2>c16c16c16c16>c4<<b16b16b16b16>b4
+E ]
+
+G [0 v15o3
+G [*T7d+16*T6d+16d+16d+16*T5d+16*T6d+16d+16d+16*T7d+16*T6d+16d+16d+16*T5d+16*T6d+16d+16d+16]7
+G *T7>a+32a+32a+16a+16r16g32g32g16g16r16d+32d+32d+16d+16r16<a+32a+32a+16a+16d+16
+G ]
+
+H [0 *T3v12o3
+H c8c8c8c8c8c8c8c8c8c8c8c8c8c8c8c8<a+8a+8a+8
+H a+8a+8a+8a+8a+8a+8a+8a+8a+8a+8a+8a+8a+8g+8g+8g+8g+8g+8g+8g+8
+H g+8g8g8g8g8g8g8g8g8f8f8f8f8f8f8f8f8g8g8g8g8g8g8g8g8
+H ]
