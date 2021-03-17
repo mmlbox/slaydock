@@ -1,0 +1,90 @@
+;[gain=2.0 name=slay01_2 duration=300s fade=5s cpu=0]
+#opll_mode 0
+#tempo 163
+#title { "Super Laydock - Misson Striker (Opening)"}
+
+@v15 = { ; B.D
+;       TL FB
+         0, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 9,15, 0, 0, 1, 0, 0, 0, 1, 0,
+  12, 8, 2, 7, 0, 1, 0, 0, 0, 0, 0 }
+
+@v16 = { ; S.D
+;       TL FB
+         0, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  11, 0, 0, 0, 0,15, 0, 0, 0, 0, 0,
+  15, 8, 3, 7, 0, 0, 0, 0, 0, 0, 0 }
+
+@v17 = { ; H.H
+;       TL FB
+         0, 5,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0,15, 0, 0, 0, 0, 0,
+  15,12, 5, 9, 0, 2, 0, 0, 0, 0, 0 }
+
+@v18 = { ; MAIN
+;       TL FB
+        26, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+   9, 4,15, 9, 0, 1, 0, 0, 0, 0, 0,
+  11, 2,15, 9, 0, 1, 0, 1, 0, 0, 0 }
+  
+@v19 = { ; BASS
+;       TL FB
+        25, 6,
+; AR DR SL RR KL MT AM VB EG KR DT
+  12, 4, 2, 3, 0, 5, 0, 0, 0, 1, 1,
+  15, 3, 3, 2, 0, 1, 0, 1, 0, 1, 1 }
+
+@v20 = { ; LEAD
+;       TL FB
+        27, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  10, 3, 3, 0, 0, 2, 0, 0, 0, 1, 0,
+   7, 4, 1, 8, 0, 6, 1, 0, 1, 1, 0 }
+
+B l8
+
+#macro_offset { T=100 }
+*T1={@18} ; Brass
+*T3={@19} ; Brass
+*T2={@20} 
+
+B r2
+B [0
+B \1*T1v11r16o4
+B a+8a8a+8g2&g16r8>g8r4g8r4..<
+B a+8a8a+8g2&g16r4>g8r4g8r4r16<
+B a+8a8a+8g2&g16r8>g8r4g8r4..<
+B a+8a8a+8a2&a16r8>g8r8a2&a8r16
+B a+8a8a+8g2&g16r8g8r4r16
+B g6a6a+6a4.f4.c8.r4f8r4..
+B d+8f8g8f4g2&g16r8d+8r4d+8r16g8a+8>c8d2&
+B d3&d12&d48r8<a+8r4a+8r8.>
+B *T1 d8d8d4.c4&c16 *T2 <d8d8d4.c8.> 
+B *T1 c6d6d+6d4.<a+4.g8. *T2 d4.<a+4&a+16 
+B *T1 >g8a8a+2&a+6&a+48 *T2 <g8a8a+2&a+4&a+16 
+B *T1 >a+8>c8<a2&a6&a48 *T2 <a+8>c8<a8g16a16a+16>c16d16e16f+16g16a16a+16>c16d16e16f+16g16a16
+B *T1 
+B r16<a+8a8a+8 g2&g16r8g8r4
+B r16g6a6a+6a4.f4.c8.r4f8r4..
+B d+8f8g8f4g2&g16r8d+8r4
+B d+8r16g8a+8>c8d2&d3&d12&d48r8<
+B a+8r4a+8r8.>d8d8d4.c4&c16 *T2<d8d8d4.c8.
+B *T1>c6d6d+6d4.<a+4.g8. *T2d4.<a+4&a+16 
+B *T1>g8a8a+8. *T2<g8a8a+4&a+16 
+B *T1>g8a8a+8. *T2<g8a8a+4&a+16 
+B *T1>a+8>c8d4&d16 *T2<<g16a16a+16>c16d16e16f+16g16a16a+16>c16d16
+B *T1 
+B r8<g8r8a2&a8r16>d+2d2c2r8<f8g8f8>d2c2<a+2
+B r8a+8a8g1&g8c6d+6g6>d4c4<a+2&a+3&a+12&a+48r8f8r8g2&
+B g8r16>d+2d2c2r8<f8g8f8>d2c2<a+2r8a+8a8g8. *T2<g16a16a+16>c16d8.
+B *T1r8a+8a8g8. *T2<a16a+16>c16d16e16f+16g8r16
+B *T1f8r8g1&g16 *T2((<g1
+B ]
+#end
+
+
+

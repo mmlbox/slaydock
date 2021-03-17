@@ -1,0 +1,89 @@
+;[gain=2.0 name=slay01_3 duration=300s fade=5s cpu=0]
+#opll_mode 0
+#tempo 163
+#title { "Super Laydock - Misson Striker (Opening)"}
+
+@v15 = { ; B.D
+;       TL FB
+         0, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 9,15, 0, 0, 1, 0, 0, 0, 1, 0,
+  12, 8, 2, 7, 0, 1, 0, 0, 0, 0, 0 }
+
+@v16 = { ; S.D
+;       TL FB
+         0, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  11, 0, 0, 0, 0,15, 0, 0, 0, 0, 0,
+  15, 8, 3, 7, 0, 0, 0, 0, 0, 0, 0 }
+
+@v17 = { ; H.H
+;       TL FB
+         0, 5,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0,15, 0, 0, 0, 0, 0,
+  15,12, 5, 9, 0, 2, 0, 0, 0, 0, 0 }
+
+@v18 = { ; MAIN
+;       TL FB
+        26, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+   9, 4,15, 9, 0, 1, 0, 0, 0, 0, 0,
+  11, 2,15, 9, 0, 1, 0, 1, 0, 0, 0 }
+  
+@v19 = { ; BASS
+;       TL FB
+        25, 6,
+; AR DR SL RR KL MT AM VB EG KR DT
+  12, 4, 2, 3, 0, 5, 0, 0, 0, 1, 1,
+  15, 3, 3, 2, 0, 1, 0, 1, 0, 1, 1 }
+
+@v20 = { ; LEAD
+;       TL FB
+        27, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  10, 3, 3, 0, 0, 2, 0, 0, 0, 1, 0,
+   7, 4, 1, 8, 0, 6, 1, 0, 1, 1, 0 }
+
+B l8
+
+#macro_offset { T=100 }
+*T1={@18} ; Brass
+*T3={@19} ; Brass
+*T2={@20} 
+
+*T7={@15v14} ; BD
+*T6={@17v13} ; HH
+*T5={@16v14} ; SD
+
+C ;*T7v15r8r%4o2a+16a+16a+6&a+16
+C r2
+C [0
+C *T1v11r4o4
+C a+8r2r8r8a+8 r4a+8r4.r4g8
+C r2r8r4g8r4g8r4r4a+8r2r8r8a+8r4 a+8r4.r4
+C f+8r2r8r8e8r8f+2&f+8r4>
+C a+8r2r8r8a+8r4a+8r4.r4a8r2r8r4
+C a8r4a8r4r4g8r2r8r8g8r4g8r4.r4f8r2r8r8f8r4
+C f8r4.r4d+8r2r8r8d+8r4
+C d+8r4.r4d8r2r8r8d8r4
+C d8r4.r4a+8r2r8r8a+8r4
+C a+8r4.r4a8r2r8r8>d8r4
+C d8r4.r4<a+8r2r8r8a+8r4
+C a+8r4.r4a8r2r8r4a8r4
+C a8r4r4g8r2r8r8g8r4
+C g8r4.r4f8r2r8r8f8r4f8r4.
+C r4d+8r2r8r8d+8r4d+8r4.r4d8r2r8r8d8r4
+C d8r4.r4d8r2r8r8d+8r4
+C d+8r4.r8f+8r4f+8r4.r8<e8r8f+8
+C r2)
+C r4a+8r4.a+8r8>c8r4c8r2r4c8r4c8r4d8r4d8
+C r2r8d8r%128r12d+8d+8r4f8f8r4r8d8
+C r4d8r4.r8c8r8d2&d8r4<a+8r4.a+8r8>c8r4c8
+C r2r4c8r4c8r4d8r4d8r2<a+4r8a+2r8>c2r8c8r8d1&d1&d8
+C ]
+
+#end
+
+
+

@@ -1,0 +1,87 @@
+;[gain=2.0 name=slay01_8 duration=300s fade=5s cpu=0]
+#opll_mode 0
+#tempo 163
+#title { "Super Laydock - Misson Striker (Opening)"}
+
+@v15 = { ; B.D
+;       TL FB
+         0, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 9,15, 0, 0, 1, 0, 0, 0, 1, 0,
+  12, 8, 2, 7, 0, 1, 0, 0, 0, 0, 0 }
+
+@v16 = { ; S.D
+;       TL FB
+         0, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  11, 0, 0, 0, 0,15, 0, 0, 0, 0, 0,
+  15, 8, 3, 7, 0, 0, 0, 0, 0, 0, 0 }
+
+@v17 = { ; H.H
+;       TL FB
+         0, 5,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0,15, 0, 0, 0, 0, 0,
+  15,12, 5, 9, 0, 2, 0, 0, 0, 0, 0 }
+
+@v18 = { ; Brass
+;       TL FB
+        26, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+   8, 4,15, 9, 0, 1, 0, 0, 0, 0, 0,
+  10, 2,15, 9, 0, 1, 0, 0, 0, 0, 0 }
+  
+@v19 = { ; BASS
+;       TL FB
+        24, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  12, 4, 2, 3, 0, 5, 0, 0, 0, 1, 1,
+  15, 3, 3, 2, 0, 1, 0, 1, 0, 1, 1 }
+
+9H l8
+
+#macro_offset { T=100 }
+*T1={@18} ; Brass
+*T3={@19} ; Brass
+*T2={@10} 
+
+9H *T3v12r4o4
+9 o3\1
+9H d64&c+64&c64&<b64&a+64&a64&g+64&g64&f+64&f64&e64&d+64&d64&c+64&c64&<b64
+9H [0
+9H *T3
+9 o2v12\1
+H o3v12
+9H g8g8>g8<g8g8g8g8g8g8>g8<g8g8>g8<g8g8g8
+9H d+8d+8>d+8<d+8d+8d+8d+8d+8d+8d+8>d+8<d+8
+9H d+8>d+8<d+8d+8c8 c8>c8<c8c8c8c8c8c8>c8<c8c8
+9H >c8<c8c8c8d8d8>d8<d8d8d8d8d8d8>d8<d8>d8
+9H <d8d8d8d8g8g8>g8<g8g8g8g8g8g8>g8<g8g8
+9H >g8<g8g8g8f8f8>f8<f8f8f8f8f8f8f8>f8<f8
+9H f8>f8<f8f8d+8d+8>d+8<d+8d+8d+8d+8d+8d+8>d+8<d+8d+8>d+8
+9H <d+8d+8d+8a+8a+8>a+8<a+8a+8a+8a+8a+8a+8>a+8<a+8a+8>a+8<
+9H a+8a+8a+8g+8g+8>g+8<g+8g+8g+8g+8g+8g+8>g+8<g+8g+8>g+8<
+9H g+8g+8g+8g8g8>g8<g8g8g8g8g8g8>g8<g8g8>g8<g8g8g8d+8d+8>
+9H d+8<d+8d+8d+8d+8d+8d+8>d+8<d+8d+8
+9H >d+8<d+8d+8d+8f8f8>f8< f8f8f8f8f8f+8>f+8<f+8f+8 
+9H >f+8<f+8f+8f+8g8g8>g8<g8g8g8g8 g8g8>g8<g8g8
+9H >g8<g8g8g8f8f8>f8<f8f8f8f8f8f8f8>f8<f8
+9H f8>f8<f8f8d+8d+8>d+8<d+8d+8d+8d+8d+8d+8>d+8<d+8d+8>d+8
+9H <d+8d+8d+8a+8a+8>a+8<a+8a+8a+8a+8a+8a+8>a+8<a+8a+8>a+8<
+9H a+8a+8a+8g+8g+8>g+8<g+8g+8g+8g+8g+8g+8>g+8<g+8g+8>g+8<g+8
+9H g+8g+8g8g8>g8<g8g8g8g8g8g8>g8<g8g8>g8<g8g8g8d+8d+8>
+9H d+8<d+8d+8d+8d+8d+8c8>c8<c8c8
+9H >c8<c8c8c8d8>d8<d8d8>d8 <d8d8d8d8>d8<d8>d8
+9H <d8d8d8d8d+8d+8>d+8<d+8d+8d+8>d+8<d+8>f8<f8f8>f8
+9H <f8f8f8f8f+8f+8>f+8<f+8f+8>f+8<f+8f+8>g8<g8g8>g8
+9H <g8g8g8g8d+8>d+8<d+8d+8d+8d+8d+8d+8c8>c8<c8c8
+9H d8>d8<d8d8g8>g8<g8g8>g8<g8g8g8g8>g8<g8>g8<g8g8
+9H g8g8d+8d+8>d+8<d+8d+8d+8>d+8<d+8>f8<f8f8>f8<
+9H f8f8f8f8f+8f+8>f+8<f+8f+8>f+8<f+8f+8>g8<g8g8>g8
+9H <g8g8g8g8d+8>d+8<d+8d+8d+8d+8d+8d+8g+8g+8>g+8<g+8
+9H r8>d8<d8g1&g8r8 g8g8g8g8g8g8g8
+9H ]
+#end
+
+
+

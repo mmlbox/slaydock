@@ -1,0 +1,63 @@
+;[gain=2.0 name=slay01_1 duration=300s fade=5s cpu=0]
+#opll_mode 0
+#tempo 163
+#title { "Super Laydock - Misson Striker (Opening)"}
+
+@v15 = { ; B.D
+;       TL FB
+         0, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 9,15, 0, 0, 1, 0, 0, 0, 1, 0,
+  12, 8, 2, 7, 0, 1, 0, 0, 0, 0, 0 }
+
+@v16 = { ; S.D
+;       TL FB
+         0, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  11, 0, 0, 0, 0,15, 0, 0, 0, 0, 0,
+  15, 8, 3, 7, 0, 0, 0, 0, 0, 0, 0 }
+
+@v17 = { ; H.H
+;       TL FB
+         0, 5,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0,15, 0, 0, 0, 0, 0,
+  15,12, 5, 9, 0, 2, 0, 0, 0, 0, 0 }
+
+@v18 = { ; MAIN
+;       TL FB
+        26, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+   8, 5,15, 9, 0, 1, 0, 0, 0, 0, 0,
+  10, 2,15, 9, 0, 1, 0, 1, 0, 0, 0 }
+
+#alloc { E=1500, F=1500, G=1500 }
+
+ABCDEFGH l8
+
+#macro_offset { T=100 }
+*T1={@18} ; Brass
+*T7={@15v14} ; BD
+*T6={@17v13} ; HH
+*T5={@16v14} ; SD
+
+A *T7r8o3d+16d+16*T5d+4
+A [0
+A *T1v13o4
+A a+8a8a+8g1&g2&g8 a+8a8a+8g1&g2&g8
+A a+8a8a+8g1&g2&g8 a+8a8a+8a2&a8 (r8>c8r8d2&d8)
+A a+8a8a+8g1&g8 g6a6a+6a4.f4.c1
+A d+8f8g8f4g1&g4 g8a+8>c8d1&d2&d4
+A d8d8d4.c1&c8 c6d6d+6d4.<a+4.g2..
+A g8a8a+1&a+2&a+4 a+8>c8<a1&a1&a8
+A a+8a8a+8g1&g8 g6a6a+6a4.f4.c1
+A d+8f8g8f4g1&g4 g8a+8>c8d1&d2&d4
+A d8d8d4.c1&c8 c6d6d+6d4.<a+4.g2..
+A g8a8a+2.g8a8a+2. a+8>c8d1&d8 (r8c8r8d2&d8)
+A d+2d2c2r8<f8g8f8> d2c2<a+2r8a+8a8g1&g8
+A c6d+6g6>d4c4<a+1 (r8a8r8a+2&a+8)>
+A d+2d2c2r8<f8g8f8> d2c2<a+2 r8a+8a8g2&g8
+A r8a+8a8g2&g8 r8f8r8g1&g1&g8
+A ]
+
+#end
